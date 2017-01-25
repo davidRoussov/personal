@@ -32,7 +32,7 @@ body {
 
 .portfolio {
 	background-color: #202020;
-	height: 1200px;
+	height: 800px;
 }
 
 .portfolio-heading {
@@ -63,11 +63,8 @@ body {
 	margin: 0 auto;
 }
 
-/*.project-image {
-	display: block;
-	max-width: 400px;
-	margin: 0 auto;
-}*/
+.project-image {
+}
 
 .project-caption {
 	background-color: #303030;
