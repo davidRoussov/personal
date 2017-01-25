@@ -1,0 +1,94 @@
+<head>
+  <title>personal</title>
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+  {{> intro}}
+
+</body>
+
+
+
+<template name="intro">
+
+
+  <header class="intro"></header>
+
+  <div class="greeting">
+    <h1 class="greeting-text-name">David Roussov</h1>
+    <p class="greeting-text-info">
+    david.roussov@hotmail.com<br>
+    Student at the Australian National University, Canberra<br>
+    Bachelor of Science (major: computer science, minor: physics)<br>
+    Bachelor of Engineering (Honours) (major: electronic and communication systems)<br>
+    </p>
+  </div>
+
+  <section class="portfolio">
+    <h1 class="portfolio-heading">Projects</h1>
+
+
+    <div class="projects">
+
+      <div class="col-md-4 col-sm-6 project-item">
+
+        <a href="#" class="project-link">
+          <img src="research.png" class="project-image">
+        </a>
+
+        <div class="project-caption">
+          <h5 style="project-caption-heading">Research</h5>
+          <p>
+          A tool for collecting and analysing scientific research.<br>
+          Made using MEAN stack (Mongo, Express, Angular, Node).
+          </p>
+        </div>
+
+      </div>
+
+      <div class="col-md-4 col-sm-6 project-item">
+
+        <a href="#" class="project-link">
+          <img src="lists.png" class="project-image">
+        </a>
+
+        <div class="project-caption">
+          <h5 style="project-caption-heading">Lists</h5>
+          <p>
+          A list making application.<br>
+          Made using Meteor.
+          </p>
+        </div>
+
+      </div>
+
+      <div class="col-md-4 col-sm-6 project-item">
+
+        <a href="#" class="project-link">
+          <img src="todo.png" class="project-image">
+        </a>
+
+        <div class="project-caption">
+          <h5 style="project-caption-heading">Todo</h5>
+          <p>
+          Todo lists simultaneously visible.<br>
+          Made using Meteor.
+          </p>
+        </div>
+
+      </div>
+
+
+
+    </div>
+
+
+
+  </section>
+
+
+</template>
