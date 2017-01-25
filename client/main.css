@@ -32,13 +32,14 @@ body {
 
 .portfolio {
 	background-color: #202020;
-	height: 1000px;
+	height: 1200px;
 }
 
 .portfolio-heading {
 	color: white;
 	font-family: "Georgia";
 	padding-top: 20px;
+	padding-bottom: 20px;
 	text-align: center;
 	font-size: 50px;
 }
@@ -46,12 +47,14 @@ body {
 
 
 .projects {
-
+	text-align: center;
 }
 
 .project-item {
 	display: inline-block;
-	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-right: 20px;
+	padding-left: 20px;
 }
 
 .project-link {
@@ -72,9 +75,9 @@ body {
 	margin: 0 auto;
 	color: white;
 	padding: 10px;
-	min-height: 150px;
+
 }
 
 .project-caption-heading {
-	margin: 0;
+
 }
