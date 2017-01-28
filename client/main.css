@@ -2,6 +2,30 @@ body {
 	margin: 0px;
 }
 
+.section-heading {
+	font-family: "Georgia";
+	font-weight: bold;
+
+	padding-top: 20px;
+	padding-bottom: 20px;
+	text-align: center;
+	font-size: 50px;
+}
+
+/*INTODUCTION*/
+
+.dr-menu {
+	position: fixed;
+	z-index: 1000;
+	background-color: black;
+	width: 100%;
+	height: 50px;
+}
+
+
+
+
+
 .intro {
 	background-image: url('background.jpg');
 	background-position: 50% 50%;
@@ -29,22 +53,16 @@ body {
 	font-family: "Georgia";
 }
 
+/*PORTFOLIO*/
 
 .portfolio {
 	background-color: #202020;
-	height: 800px;
+
 }
 
 .portfolio-heading {
 	color: white;
-	font-family: "Georgia";
-	padding-top: 20px;
-	padding-bottom: 20px;
-	text-align: center;
-	font-size: 50px;
 }
-
-
 
 .projects {
 	text-align: center;
@@ -78,4 +96,39 @@ body {
 
 .project-caption-heading {
 
+}
+
+/* CONTACT */
+
+.contact {
+	background-color: #f39c12;
+}
+
+.contact-form {
+	padding-left: 100px;
+	padding-right: 100px;
+	padding-bottom: 100px;
+	width: 50%;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.contact-heading {
+}
+
+.contact-input {
+	background-color: #da8b0b;
+	border: none;
+	padding: 5px;
+	color: black;
+	outline: none;
+	width: 100%;
+}
+
+.contact-input::-webkit-input-placeholder { 
+    color: #686868  ;
+}
+
+.contact-submit {
+	width: 100%;
 }

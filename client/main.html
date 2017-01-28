@@ -9,27 +9,51 @@
 
   {{> intro}}
 
+  {{> portfolio}}
+
+  {{> contact}}
+
 </body>
 
 
 
 <template name="intro">
 
+  <ul class="nav dr-menu">
+    <li class="nav-item">
+      <a class="nav-link active" href="#">Active</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#">Link</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#">Link</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link disabled" href="#">Disabled</a>
+    </li>
+  </ul>
 
   <header class="intro"></header>
 
   <div class="greeting">
     <h1 class="greeting-text-name">David Roussov</h1>
     <p class="greeting-text-info">
-    david.roussov@hotmail.com<br>
     Student at the Australian National University, Canberra<br>
     Bachelor of Science (major: computer science, minor: physics)<br>
     Bachelor of Engineering (Honours) (major: electronic and communication systems)<br>
     </p>
   </div>
 
+
+
+
+</template>
+
+<template name="portfolio">
+
   <section class="portfolio">
-    <h1 class="portfolio-heading">Projects</h1>
+    <h1 class="section-heading portfolio-heading">Projects</h1>
 
 
     <div class="projects">
@@ -86,9 +110,46 @@
 
     </div>
 
+  </section>
+
+</template>
+
+
+
+
+
+<template name="contact">
+
+
+
+  <section class="contact">
+
+
+    <form class="contact-form">
+
+      <h1 class="section-heading contact-heading">Contact</h1>
+
+      <div class="form-group">
+        <input type="text" class="contact-input" placeholder="Enter name">
+      </div>
+      <div class="form-group">
+        <input type="email" class="contact-input" placeholder="Enter email">
+      </div>
+      <div class="form-group">
+        <input type="text" class="contact-input" placeholder="Enter subject">
+      </div>
+       <div class="form-group">
+        <textarea type="text" class="contact-input" placeholder="Enter message"></textarea>
+      </div>      
+
+      <button type="submit" class="btn btn-primary contact-submit">Submit</button>     
+
+    </form>
+
 
 
   </section>
+
 
 
 </template>
